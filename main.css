@@ -89,3 +89,20 @@ body{
 .aboutHeader h1{
     font-size: 2em;
 }
+
+input{
+    background: yellow; 
+    border: 0px;
+    padding: 1em;
+    color: black;
+    margin: 1%;
+}
+
+.submitCustomizer{
+    padding: 1em;
+    background: yellow; 
+    border: 0px;
+    padding: 1em;
+    color: black;
+    margin: 1%;
+}
