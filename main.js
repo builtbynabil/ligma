@@ -8,6 +8,8 @@ var submitCustomizerPressed = false;
 var divForm = $(".divForm");
 var customizerHide = $(".customizerHide");
 
+document.body.style.zoom = 1.0
+
 customizerHide.hide();
 
 $(".header .revealLigma").click(function(){
