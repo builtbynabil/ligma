@@ -6,8 +6,8 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+
     
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
@@ -20,13 +20,19 @@
             <li><a href="customizer.html">CUSTOMIZE</a></li>
         </ul>
     </div>
+        
+    <div class="header divForm">
+        <input type="text" placeholder="Disease Name" class="diseaseName">
+        <input type="text" placeholder="Reveal Text" class="revealText">
+        <button class="submitCustomizer">Sumbit</button>
+    </div>
 
-    <div class="header aboutHeader">
-        <h1>What is LIGMA?</h1>
+    <div class="header aboutHeader customizerHide">
+        <h1>What is <span class="diseaseNameText">LIGMA</span> ?</h1>
         <button class="revealLigma">CLICK TO REVEAL</button>
         <p class="answer"></p>
     </div>
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script src="main.js"></script>
     

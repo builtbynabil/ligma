@@ -15,7 +15,7 @@ body{
     /* text-align: center; */
     width: 70%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 2em;
 }
 
 .header h1,p{
@@ -25,13 +25,14 @@ body{
 
 .header h1{
     font-size: 4em;
+    line-height: 1em;
 }
 
 .nav{
     font-weight: 700;
     text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .nav ul{
@@ -68,7 +69,7 @@ body{
 }
 
 .ligma{
-    margin-top: 1.5%;
+    margin-top: 0.5em;
     padding: 1em;
     background: yellow;
     border: 0;
@@ -79,9 +80,10 @@ body{
 }
 
 .revealLigma{
+    margin-top: 0.5em;
     background: yellow;
     border: 0;
-    padding: 1%;
+    padding: 11px;
 }
 
 .aboutHeader h1{
