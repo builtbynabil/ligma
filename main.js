@@ -13,9 +13,9 @@ customizerHide.hide();
 $(".header .revealLigma").click(function(){
     revealLigma.hide();
     answer.text("LIGMA BALLS BITCH");
-    answer.css("font-size","4em");
+    // answer.css("font-size","4em");
     answer.css("font-weight","700");
-    answer.css("line-height","1em");
+    // answer.css("line-height","1em");
 
     $(".aboutHeader h1").hide();
 
@@ -37,6 +37,8 @@ submitCustomizer.click(function(){
     $(".customizerHide .diseaseNameText").text($(".diseaseName").val());
     $(".customizerHide .revealLigma").click(function(){
         $(".customizerHide .answer").text(revealText.val());
+        $(".customizerHide .answer").css("font-size","2em")
+        $(".customizerHide .answer").css("font-weight","700");
     })
 
     customizerHide.show();
