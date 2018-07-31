@@ -23,7 +23,7 @@ $(".header .revealLigma").click(function(){
 
     setInterval(function(){
         location.replace("index.html")
-    },500)
+    },3000)
     
 })
 
@@ -36,7 +36,7 @@ submitCustomizer.click(function(){
 
     $(".customizerHide").css("text-align","center");
     
-    $(".customizerHide .diseaseNameText").text($(".diseaseName").val());
+    $(".customizerHide .diseaseNameText").text($(".diseaseName").val().toUpperCase());
     $(".customizerHide .revealLigma").click(function(){
         $(".customizerHide .answer").text(revealText.val());
         $(".customizerHide .answer").css("font-size","2em")
